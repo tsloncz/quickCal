@@ -1,0 +1,49 @@
+h1{
+    color:              #c41425 ;
+    }
+h4{
+    color:              #c41425 ;
+    font-size:          1em;
+    }
+#content{
+    width:              900px;
+    align:              center;
+}
+#calEvent{
+    background-color:   #F0EFEF;
+    color:              #007dc5;
+    width:              400;
+    height:             100px;
+    float:              left;
+    padding:            5px;
+    margin-left:        10px;
+    margin-top:         5px;
+    margin-bottom:      5px;
+}
+.box{
+    width:              26em;
+    padding:            1em;
+	margin-left:		1em;
+    margin-top:         1em;
+	border:				thin solid;
+	border-color:		#CCC;
+	moz-box-shadow:         3px 3px 13px #888888;
+	webkit-box-shadow: 		3px 3px 13px #888888;
+	box-shadow: 			3px 3px 13px #888888;
+    font-size:          1em;
+}
+button{
+    background-color:   #007dc5;
+    border-radius:      .25em;
+    color:              white;
+    font-size:          1em;
+    padding:            .25em;
+    border:             none;
+}
+#heading{
+    color:              #c41425 ;
+    font-size:          1em;
+}
+input{
+    font-size:  1em;
+}

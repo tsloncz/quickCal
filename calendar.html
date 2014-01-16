@@ -1,0 +1,45 @@
+<html>
+<head>
+    <link rel="StyleSheet" href="calendarStyle.css">
+    <link rel="stylesheet" type="text/css" href="jquery-ui.css" />    
+
+    <script src="jquery-1.9.1.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
+    <script src="calendarTestJs.js"></script>
+    <title>Calendar quick</title>
+</head>
+
+  <body>
+      <h1>Calendar Quick</h1>
+      <button id='authorize-button' onclick='handleAuthClick();'>Login</button>
+      <div class = 'box' id = 'eventStats'>
+          <div id='heading'>
+            Returns stats about all events matching search criteria
+          </div>
+          <h4>
+              <input type="text" id="query" size="30em"/>
+              <button id='query-button' onclick='eventStats();'>Query</button>
+              <br />
+              <br />
+          <div id = 'eventStatsResult'>
+          </div>
+          </h4>
+      </div>
+      <div class = 'box' id = 'addReminder'>
+          <div id='heading'>
+            Adds reminders to all events matching search criteria
+          </div>
+          <h4>
+              <input type="text" id="reminderQuery" size="30em"/>
+              <button id='authorize-button' onclick='massReminder();'>Add Reminder</button><br />
+              <input type="radio" name="reminder" value="big">Big (Email 7, 4, and 2 days prior)<br />
+              <input type="radio" name="reminder" value="little">Little (Email 1 day prior and popup 2 hours prior) <br />
+              <input type="radio" name="reminder" value="remove">Remove reminders <br /><br />
+              <div id='reminderResults'>
+              </div>
+              </h4>
+    </div>
+    
+  </body>
+</html>
